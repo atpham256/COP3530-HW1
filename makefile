@@ -1,5 +1,5 @@
 all:
-	${MAKE} hw1prob1 hw1prob2 hw1prob3
+	make hw1prob1 hw1prob2 hw1prob3
 hw1prob1: hw1prob1.o makeGen2dArray.o freeGen2dArray.o
 	g++ -g -Wall -o hw1prob1 hw1prob1.o makeGen2dArray.o freeGen2dArray.o
 hw1prob1.o: hw1prob1.cpp
